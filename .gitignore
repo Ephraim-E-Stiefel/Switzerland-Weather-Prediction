@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+
+# Jupyter Notebook specific files
+.ipynb_checkpoints
+
+# Machine Learning & Data
+# Exclude large pickled models
+models/*.pkl
+# data/train.csv
+
+# System
+.DS_Store

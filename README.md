@@ -77,18 +77,18 @@ The initial baseline models demonstrated that predicting temperature across the 
 
 ## Repository Structure
 
-/Switzerland-Weather-Prediction/
-|-- .gitignore
-|-- README.md
-|-- requirements.txt
-|-- data/
-|   |-- train.csv
-|-- notebooks/
-|   |-- 01_Switzerland_Weather_Prediction.ipynb
-|-- models/
-|   |-- (Placeholder for future trained models)
-|-- src/
-|   |-- (Placeholder for future scripts/modules)
+/Switzerland-Weather-Prediction/   
+|-- .gitignore   
+|-- README.md   
+|-- requirements.txt   
+|-- data/   
+|   |-- train.csv   
+|-- notebooks/   
+|   |-- 01_Switzerland_Weather_Prediction.ipynb   
+|-- models/   
+|   |-- (Placeholder for future trained models)   
+|-- src/   
+|   |-- (Placeholder for future scripts/modules)   
 
 ---
 
