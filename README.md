@@ -146,4 +146,4 @@ To significantly improve prediction accuracy beyond the baseline models, the pro
 
 ## License
 
-This project is licensed under the MIT License - see the `LICENSE` file for details (if one exists in the final repository).
+This project is licensed under the MIT License - see the `LICENSE` file for details.
