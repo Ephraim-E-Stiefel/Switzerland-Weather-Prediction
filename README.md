@@ -4,8 +4,6 @@
 
 This repository hosts a machine learning project focused on developing and evaluating models for ***predicting ambient temperature in Bern, Switzerland***. The goal is to build robust regression models that can accurately forecast the temperature 12, 24, and 48 hours in advance, using diverse meteorological observations from 10 weather stations across the country.
 
-> **Note:** Some portions of the code and this documentation were generated with the assistance of **Generative AI** to improve clarity and structure.
-
 ---
 
 ## Table of Contents
@@ -147,3 +145,7 @@ To significantly improve prediction accuracy beyond the baseline models, the pro
 ## License
 
 This project is licensed under the MIT License - see the `LICENSE` file for details.
+
+---
+
+> **Note:** Some portions of the code and this documentation were generated with the assistance of **Generative AI** to improve clarity and structure.
