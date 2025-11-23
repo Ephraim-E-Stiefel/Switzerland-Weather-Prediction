@@ -74,11 +74,11 @@ The following regression models were implemented, optimized via **GridSearchCV**
 
 ## Key Results
 
-The analysis revealed that current temperature is the strongest predictor for all horizons, but feature redundancy requires careful handling.
+The analysis of the one-standard-error models revealed that current temperature is the strongest predictor for all horizons, but feature redundancy requires careful handling.
 
 * **12-Hour Forecast**: **Linear Regression** achieved the best performance with a Test MAE of approximately **2.29**.
-* **24-Hour Forecast**: **Lasso Regression** proved superior, achieving the lowest error with a Test MAE of approximately **1.44**.
-* **48-Hour Forecast**: **Lasso Regression** again performed best with a Test MAE of approximately **1.63**, demonstrating that regularization helps generalize better over longer horizons.
+* **24-Hour Forecast**: **Lasso Regression** proved superior, achieving the lowest error with a Test MAE of approximately **1.98**.
+* **48-Hour Forecast**: **Lasso Regression** again performed best with a Test MAE of approximately **2.63**, demonstrating that regularization helps generalize better over longer horizons.
 * **KNN Performance**: The K-Nearest Neighbors model consistently underperformed compared to linear models, showing signs of overfitting despite hyperparameter tuning.
 
 ---
@@ -92,7 +92,7 @@ The analysis revealed that current temperature is the strongest predictor for al
 |-- data/    
 |   |-- train.csv    
 |-- notebooks/    
-|   |-- 01_CH_Weather_Prediction_EDA.ipynb
+|   |-- 01_CH_Weather_Prediction_EDA.ipynb   
 |   |-- 02_CH_Weather_Prediction_Preprocessing_and_Models.ipynb
 |-- models/    
 |   |-- (Placeholder for future trained models)    
