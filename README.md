@@ -27,12 +27,12 @@ The project utilizes a **Switzerland Weather Dataset** (train.csv) containing ho
 
 * **Size**: Approximately **7,579 hourly records**.
 * **Features**: Includes 92 raw features for 10 weather stations, covering meteorological variables such as:
-    * Temperature (tre200h0_*)
-    * Wind speed/gust (fkl010h0_*, fkl010h3_*)
-    * Radiation (gre000h0_*, sre000h0_*)
-    * Pressure (prestah0_*, pp0qffh0_*)
-    * Relative Humidity (ure200h0_*)
-    * Precipitation (rre150h0_*)
+    * Temperature (tre200h0_)
+    * Wind speed/gust (fkl010h0_, fkl010h3_)
+    * Radiation (gre000h0_, sre000h0_)
+    * Pressure (prestah0_, pp0qffh0_)
+    * Relative Humidity (ure200h0_)
+    * Precipitation (rre150h0_)
 * **Temporal Features**: hour and season.
 * **Target Variables**: target_tre200h0_plus12h, target_tre200h0_plus24h, and target_tre200h0_plus48h (future temperature predictions in °C).
 
