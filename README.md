@@ -93,7 +93,7 @@ The analysis of the one-standard-error models revealed that current temperature 
 |   |-- train.csv    
 |-- notebooks/    
 |   |-- 01_CH_Weather_Prediction_EDA.ipynb   
-|   |-- 02_CH_Weather_Prediction_Preprocessing_and_Models.ipynb
+|   |-- 02_CH_Weather_Prediction_Preprocessing_and_Models.ipynb   
 |-- models/    
 |   |-- (Placeholder for future trained models)    
 |-- src/    
