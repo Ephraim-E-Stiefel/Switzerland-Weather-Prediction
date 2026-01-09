@@ -96,8 +96,8 @@ The analysis demonstrated that non-linear, tree-based models significantly outpe
 |-- data/    
 |   |-- train.csv    
 |-- notebooks/    
-|   |-- 01_Weather_Prediction.ipynb
-|-- report/    
+|   |-- 01_Weather_Prediction.ipynb   
+|-- report/   
 |   |-- Weather_Prediction_Report.pdf
 
 ---
