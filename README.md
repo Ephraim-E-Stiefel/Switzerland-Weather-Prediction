@@ -43,11 +43,6 @@ The project follows a comprehensive machine learning pipeline designed to mitiga
 
 1.  **Data Cleaning**: Rows with missing values were removed to ensure data integrity.
 2.  **Exploratory Data Analysis**: Conducted correlation analysis to identify highly redundant station measurements (e.g., temperature and pressure correlations > 0.9) and visualized distributions using violin plots.
-3.  **Feature Engineering**: To account for the fact that the dataset is not chronologically ordered (preventing the use of standard lagged variables), three key features were engineered for non-parametric models to provide temporal context:
-    * **Mean Season-Hour Temperature ($\mu_{s,h}$)**: The average temperature for a specific hour within a specific season, representing the expected baseline.
-    * **Standard Deviation Season-Hour Temperature ($\sigma_{s,h}$)**: The variability expected for that specific hour and season.
-    * **Temperature Anomaly**: Interaction term between Global Radiation and the cosine of the hour to represent solar heating efficiency.
-    * **Temperature Change**: Calculated as the current temperature minus the mean season-hour temperature ($tre200h0 - \mu_{s,h}$), capturing whether the current conditions are unusually warm or cold relative to the baseline.
 3.  **Preprocessing for Parametric Models**:
     * **Box-Cox Transformation**: Applied to highly skewed features (Wind speed/gust, Precipitation, Sunshine Duration, Global Radiation) to approximate normal distribution.
     * **Winsorization**: Wind speed and Precipitation features were capped at the 98th percentiles to limit the impact of rare measures which can disturb the accuracy of the models.
